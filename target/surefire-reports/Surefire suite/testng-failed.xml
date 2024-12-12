@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Com.Comcast.Crm.TroubleTickeTest.CreateTroubleTicketwithCONTACTTest">
+        <methods>
+          <include name="LauanchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="CloseDataBaseConnection"/>
+          <include name="CreateTroubleTicketCONTACTTest"/>
+          <include name="DataBaseConnection"/>
+          <include name="LogOutPage"/>
+        </methods>
+      </class> <!-- Com.Comcast.Crm.TroubleTickeTest.CreateTroubleTicketwithCONTACTTest -->
+      <class name="Com.Comcast.Crm.TroubleTickeTest.CreateTroubleTicketwithGroupTest">
+        <methods>
+          <include name="LauanchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="CloseDataBaseConnection"/>
+          <include name="DataBaseConnection"/>
+          <include name="CreateTroubleTicketwGroupTest"/>
+          <include name="LogOutPage"/>
+        </methods>
+      </class> <!-- Com.Comcast.Crm.TroubleTickeTest.CreateTroubleTicketwithGroupTest -->
+      <class name="Com.Comcast.Crm.OrgTest.OrgTest">
+        <methods>
+          <include name="LauanchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="CreateOrg_Test"/>
+          <include name="CloseDataBaseConnection"/>
+          <include name="DataBaseConnection"/>
+          <include name="LogOutPage"/>
+        </methods>
+      </class> <!-- Com.Comcast.Crm.OrgTest.OrgTest -->
+      <class name="Com.Comcast.Crm.OrgTest.CreateOrgTest">
+        <methods>
+          <include name="LauanchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="CloseDataBaseConnection"/>
+          <include name="DataBaseConnection"/>
+          <include name="CreateOrg_Test"/>
+          <include name="LogOutPage"/>
+        </methods>
+      </class> <!-- Com.Comcast.Crm.OrgTest.CreateOrgTest -->
+      <class name="Com.Comcast.Crm.TroubleTickeTest.CreateTroubleTicketwithUserTest">
+        <methods>
+          <include name="LauanchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="CreateTroubleTicketUserTest"/>
+          <include name="CloseDataBaseConnection"/>
+          <include name="DataBaseConnection"/>
+          <include name="LogOutPage"/>
+        </methods>
+      </class> <!-- Com.Comcast.Crm.TroubleTickeTest.CreateTroubleTicketwithUserTest -->
+      <class name="Com.Comcast.Crm.CampaignsTest.CampaignTest">
+        <methods>
+          <include name="LauanchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="CloseDataBaseConnection"/>
+          <include name="DataBaseConnection"/>
+          <include name="createCampaignTest"/>
+          <include name="LogOutPage"/>
+        </methods>
+      </class> <!-- Com.Comcast.Crm.CampaignsTest.CampaignTest -->
+      <class name="Com.Comcast.Crm.LeadTest.CreateLeadTest">
+        <methods>
+          <include name="LauanchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="CreateLead_Test"/>
+          <include name="CloseDataBaseConnection"/>
+          <include name="DataBaseConnection"/>
+          <include name="LogOutPage"/>
+        </methods>
+      </class> <!-- Com.Comcast.Crm.LeadTest.CreateLeadTest -->
+      <class name="Com.Comcast.Crm.CampaignsTest.CreateOpportunitieTest">
+        <methods>
+          <include name="LauanchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="CreateOpportTest"/>
+          <include name="CloseDataBaseConnection"/>
+          <include name="DataBaseConnection"/>
+          <include name="LogOutPage"/>
+        </methods>
+      </class> <!-- Com.Comcast.Crm.CampaignsTest.CreateOpportunitieTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

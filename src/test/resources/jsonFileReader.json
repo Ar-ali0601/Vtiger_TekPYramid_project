@@ -1,0 +1,9 @@
+{
+    "Browser"  : "chrome",
+    "Url"      : "http://localhost:8888/",
+    "UserName" : "admin",
+    "Password" : "admin",
+    "timeout"  :  20,
+    "Env"      : ["testing" ,"UAT", "staging"]
+
+}
